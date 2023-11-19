@@ -1,0 +1,76 @@
+:root{
+    --bg-main: #F5F5F5 ;
+    --bg-section: #FFFFFF ;
+    --bg-primary:#0d6efd;
+    --text-color:#4e4e4e;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    font-size: 28px;
+}
+.dark-layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.bg-nav{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+#home{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#home h1 {
+    font-size: 72px;
+    font-weight: 600;
+}
+.typed-cursor--blink , .typed-cursor{
+    font-size: 2.5rem;
+}
+section {
+    background-color: var(--bg-main);
+}
+#about .progress-10{
+    height: 10px !important;
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+#about h2 {
+    position: relative;
+}
+#about h2::after{
+    content: '';
+    width: 95px;
+    height: 3px;
+    background-color: var(--bg-primary);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#about .overveiw p{
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+.text-color{
+    color: var(--text-color);
+}
+#services .title {
+    position: relative;
+}
+#services .title::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: var(--bg-primary);
+    position: absolute;
+    top: 110%;
+    left: calc(50% - 15px);
+}
