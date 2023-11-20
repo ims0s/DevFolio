@@ -74,3 +74,17 @@ section {
     top: 110%;
     left: calc(50% - 15px);
 }
+.card-logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    font-size: 40px;
+    color: black;
+    border: 8px solid var(--bg-primary);
+    transition: border 0.5s , color 0.5s , background-color 0.5s;
+}
+#services .card-body:hover .card-logo{
+    background-color: var(--bg-primary);
+    color: white;
+    border: 8px solid #ffffffb1;
+}
