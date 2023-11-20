@@ -127,3 +127,19 @@ section .primary-layer{
     height: 10px;
     border-radius: 50%;
 }
+#blog .card .card-title a,#blog .card .card-footer a{
+    transition: color 0.5s;
+}
+#blog .card .card-title a:hover ,#blog .card .card-footer a:hover {
+    color: var(--bg-primary) !important;
+}
+#blog .blog-img{
+    position: relative;
+    margin-bottom: 10px;
+}
+#blog .category{
+    position: absolute;
+    width: 130px;
+    top: calc(100% - 18px);
+    left: calc(50% - 65px);
+}
