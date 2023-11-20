@@ -74,7 +74,7 @@ section {
     top: 110%;
     left: calc(50% - 15px);
 }
-.card-logo{
+.card-logo , .counter-log{
     width: 100px;
     height: 100px;
     margin: auto;
@@ -87,4 +87,18 @@ section {
     background-color: var(--bg-primary);
     color: white;
     border: 8px solid #ffffffb1;
+}
+.counter-log{
+    border-color: #CDE1F8;
+    color: white;
+}
+#counter {
+    background-image: url("../images/counters-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+#counter .primary-layer{
+    background-color: #0d6dfdac;
 }
