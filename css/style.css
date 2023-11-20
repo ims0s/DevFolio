@@ -173,6 +173,19 @@ section .primary-layer{
 #contact .social-logo:hover{
     border-width: 4px;
 }
+.up-arrow a{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3584f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+    right: 15px;
+
+}
 @media  screen and (max-width:991px) {
     .navbar .navbar-collapse:has(.show){
         position: absolute;
