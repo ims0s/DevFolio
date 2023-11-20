@@ -62,10 +62,10 @@ section {
 .text-color{
     color: var(--text-color);
 }
-#services .title {
+section .title {
     position: relative;
 }
-#services .title::after {
+section .title::after {
     content: '';
     width: 30px;
     height: 3px;
@@ -101,4 +101,13 @@ section {
 }
 #counter .primary-layer{
     background-color: #0d6dfdac;
+}
+#portfolio .card .card-body p {
+    font-size: 12px !important;
+}
+#portfolio .card .portfolio-img img{
+    transition: transform 0.5s ;
+}
+#portfolio .card:hover .portfolio-img img{
+    transform: scale(1.2);
 }
