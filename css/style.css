@@ -99,7 +99,7 @@ section .title::after {
     background-attachment: fixed;
     color: white;
 }
-#counter .primary-layer{
+section .primary-layer{
     background-color: #0d6dfdac;
 }
 #portfolio .card .card-body p {
@@ -110,4 +110,20 @@ section .title::after {
 }
 #portfolio .card:hover .portfolio-img img{
     transform: scale(1.2);
+}
+#feedback {
+    background-image: url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#feedback img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+#feedback .indicator{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
